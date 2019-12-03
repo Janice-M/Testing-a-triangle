@@ -1,4 +1,4 @@
-function tritest(Fside,Sside,lside) {
+function tritest(first, second,last) {
 
 var first = document.getElementById('Fside').value;
 var second = document.getElementById('Sside').value;
