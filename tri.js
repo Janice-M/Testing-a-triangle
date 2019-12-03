@@ -1,9 +1,10 @@
 function tritest(Fside,Sside,lside) {
+
 var first = document.getElementById('Fside').value;
 var second = document.getElementById('Sside').value;
 var last = document.getElementById('lside').value;
 
-if(Fside===Sside || Sside===lside || Fside===lside) {
+if( first=== second || second===last || first=== last) {
     alert ("This is an equalateral triangle");
 }
 else
